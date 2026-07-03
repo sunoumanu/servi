@@ -30,5 +30,6 @@ USB Composite Device     USB Composite Device
 # Flash and monitor (use COM port from 2)
 `idf.py -p COM5 flash monitor`
 
-6) Enjoy rotating servo - see showcase
+# Enjoy rotating servo - see showcase
+
 https://youtube.com/shorts/qaIh2n1oFwc?si=qEFv2e9FymnzXn8B
