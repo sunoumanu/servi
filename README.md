@@ -8,9 +8,9 @@ https://github.com/espressif/esp-idf
 Wiring Guide
 
 Servo Wire Color	Pin Function	Connect to XIAO ESP32-S3 Pin
-Brown (or Black)	Ground (GND)	GND (Bottom row, second pin from left)
-Red	Power (VCC)	VUSB (Bottom row, first pin from left)
-Orange (or Yellow)	PWM Signal	D0 (Top row, first pin from left) or any digital pin D0–D10
+Servo: Brown (or Black)	Ground (GND) -> ESP: GND (Bottom row, second pin from left)
+Servo: Red Power (VCC) -> ESP: VUSB (Bottom row, first pin from left)
+Servo: Orange (or Yellow) -> ESP: PWM Signal D0 (Top row, first pin from left) or any digital pin D0–D10
 
 
 
