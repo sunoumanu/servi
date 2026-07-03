@@ -34,7 +34,7 @@ USB Serial Device (COM5) USB Serial Device (COM5)
 USB Composite Device     USB Composite Device
 ```
 
-# Set appropriate target
+# Set appropriate hardware target
 `idf.py set-target esp32s3`
 
 # Build
