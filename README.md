@@ -5,6 +5,15 @@ Uses IDF framework for ESP32
 https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/index.html
 https://github.com/espressif/esp-idf
 
+Wiring Guide
+
+Servo Wire Color	Pin Function	Connect to XIAO ESP32-S3 Pin
+Brown (or Black)	Ground (GND)	GND (Bottom row, second pin from left)
+Red	Power (VCC)	VUSB (Bottom row, first pin from left)
+Orange (or Yellow)	PWM Signal	D0 (Top row, first pin from left) or any digital pin D0–D10
+
+
+
 Instructions for windows 11
 
 # Driver installation
