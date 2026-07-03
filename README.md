@@ -13,7 +13,10 @@ Servo: Red Power (VCC) -> ESP: VUSB (Bottom row, first pin from left)
 
 Servo: Orange (or Yellow) -> ESP: PWM Signal D0 (Top row, first pin from left) or any digital pin D0–D10
 
+Example wiring: 
 
+https://github.com/sunoumanu/servi/blob/main/main/esp32_wiring.jpg
+https://github.com/sunoumanu/servi/blob/main/main/servo_wiring.jpg
 
 Instructions for windows 11
 
