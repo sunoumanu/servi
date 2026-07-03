@@ -1,0 +1,13 @@
+# Target chip configuration
+CONFIG_IDF_TARGET="esp32c6"
+
+# Serial Console Options (Uses the built-in USB Serial/JTAG controller)
+CONFIG_ESP_CONSOLE_UART_CUSTOM=y
+CONFIG_ESP_CONSOLE_UART_NUM=0
+CONFIG_ESP_CONSOLE_UART_BAUDRATE=115200
+
+# FreeRTOS configuration (1000 Hz tick rate for precise timings)
+CONFIG_FREERTOS_HZ=1000
+
+# Enable compiler optimizations for size/performance
+CONFIG_COMPILER_OPTIMIZATION_SIZE=y
