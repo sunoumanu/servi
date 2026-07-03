@@ -7,26 +7,28 @@ https://github.com/espressif/esp-idf
 
 Instructions for windows 11
 
-1) Driver installation
-idf-env.exe driver install --espressif
+# Driver installation
+`idf-env.exe driver install --espressif`
 
-2) Find the COM port to program (powershell)
-Get-PnpDevice -PresentOnly | Where-Object { $_.InstanceId -match "USB" -and $_.Name -match "COM" } | Select-Object Name, FriendlyName
+# Find the COM port to program (powershell)
+`Get-PnpDevice -PresentOnly | Where-Object { $_.InstanceId -match "USB" -and $_.Name -match "COM" } | Select-Object Name, FriendlyName`
 
+```
 Name                     FriendlyName
 ----                     ------------
 USB Composite Device     USB Composite Device
 USB Serial Device (COM5) USB Serial Device (COM5)
 USB Composite Device     USB Composite Device
+```
 
-3) Set appropriate target
-idf.py set-target esp32s3
+# Set appropriate target
+`idf.py set-target esp32s3`
 
-4) Build
-idf.py build
+# Build
+`idf.py build`
 
-5) Flash and monitor (use COM port from 2)
-idf.py -p COM5 flash monitor
+# Flash and monitor (use COM port from 2)
+`idf.py -p COM5 flash monitor`
 
 6) Enjoy rotating servo - see showcase
 https://youtube.com/shorts/qaIh2n1oFwc?si=qEFv2e9FymnzXn8B
